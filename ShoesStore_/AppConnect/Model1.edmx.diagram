@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="004c101778e9478f8ae9f14806a1d9fc" Name="Diagram1">
+        <EntityTypeShape EntityType="Shoes2026ABModel.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Indexes" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Manufacturer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.OrderItems" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Orders" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.OrderStatus" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.ProductTypes" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.PVZ" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Roles" Width="1.5" PointX="0.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Suppliers" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shoes2026ABModel.Users" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_PVZ_Indexes1" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Products_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Orders_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Orders_Products1" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Orders_PVZ" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Products_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="Shoes2026ABModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
